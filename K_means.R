@@ -2,7 +2,7 @@
 dataset = read.csv("~/GitHub/ALDA/hw2-data.csv");
 
 # View the dataset
-View(dataset);
+#View(dataset);
 
 # Refining the dataset
 dataset.features = dataset;

@@ -18,9 +18,9 @@ for (i in methods) {
   # output file
   jpeg(file = paste("~/GitHub/ALDA/h_clust_",i,".jpeg",sep = ""));
   
-  groups <- cutree(result,k=4);
+  #groups <- cutree(result,k=4);
   # Generate plot
-  plot(result);
+  plot(result,hang=-1);
   
   rect.hclust(result,k=4,border = "green");
   
