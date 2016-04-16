@@ -1,0 +1,14 @@
+ 
+The following packages have to be installed
+
+
+class
+e1071
+ellipse
+ggplot2 
+RColorBrewer
+dplyr
+neuralnet
+ade4
+rpart
+rpart.plot
