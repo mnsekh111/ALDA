@@ -21,8 +21,10 @@ test.label=test[,1]
 
 require(tree)
 treemodel=tree(V1~.,data=train)
+# print treemodel
 summary(treemodel)
 plot(treemodel)
+
 prediction<- predict(treemodel, test)
 prediction=ifelse(prediction < 5, 3, 8)
 cm=table(as.integer(prediction),test.label)
